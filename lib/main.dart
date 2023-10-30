@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_esgi/services/toggle_bloc.dart';
+
 
 import 'screens/home.dart';
 
@@ -11,8 +14,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Home(),
+    return BlocProvider(
+      create: (context) => ToggleBloc(),
+      child: MaterialApp(
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: const Home(),
+      ),
     );
   }
 }
