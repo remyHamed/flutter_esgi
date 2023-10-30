@@ -8,6 +8,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "bloc",
+      "rootUri": "file:///home/juridifeel/.pub-cache/hosted/pub.dev/bloc-8.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///home/juridifeel/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
       "packageUri": "lib/",
@@ -152,7 +158,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-10-30T16:49:12.219794Z",
+  "generated": "2023-10-30T17:33:41.451994Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }
